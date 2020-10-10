@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Covid19 Updates</string>
+    <string name="splashscreen_text">Covid19 Updates</string>
 </resources>
