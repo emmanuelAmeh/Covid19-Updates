@@ -61,7 +61,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/theb
 	android:roundIcon
 		ADDED from /Users/theblessing/Library/Caches/AndroidStudio3.6/Covid19Updates/app/src/main/AndroidManifest.xml:10:9-54
 	android:icon
-		ADDED from /Users/theblessing/Library/Caches/AndroidStudio3.6/Covid19Updates/app/src/main/AndroidManifest.xml:8:5-39
+		ADDED from /Users/theblessing/Library/Caches/AndroidStudio3.6/Covid19Updates/app/src/main/AndroidManifest.xml:8:9-43
 	android:allowBackup
 		ADDED from /Users/theblessing/Library/Caches/AndroidStudio3.6/Covid19Updates/app/src/main/AndroidManifest.xml:6:9-35
 	android:theme
