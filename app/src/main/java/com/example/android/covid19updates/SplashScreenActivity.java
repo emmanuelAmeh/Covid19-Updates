@@ -20,6 +20,7 @@ public class SplashScreenActivity extends AppCompatActivity {
                 .withSplashTimeOut(4000)
                 .withBackgroundColor(Color.WHITE)
                 .withAfterLogoText(getString(R.string.splashscreen_text))
+                .withHeaderText(getString(R.string.splash_header))
                 .withLogo(R.drawable.ic_local_hospital);
 
         View easySplashScreen = configSplash.create();
