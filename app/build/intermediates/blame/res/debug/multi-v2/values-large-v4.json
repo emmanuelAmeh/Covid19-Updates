@@ -1,8 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/theblessing/Library/Caches/AndroidStudio3.6/Covid19Updates/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml",
+            "outputFile": "/Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml",
             "map": [
+                {
+                    "source": "/Users/theblessing/Documents/AAD/Latest/AndroidCertificationWorkout-master/app/caches/transforms-2/files-2.1/b5cf40796c25367401fbf6ec124658c0/material-1.2.1/res/values-large-v4/values-large-v4.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,177",
+                        "endColumns": "121,133",
+                        "endOffsets": "172,306"
+                    },
+                    "to": {
+                        "startLines": "11,12",
+                        "startColumns": "4,4",
+                        "startOffsets": "752,874",
+                        "endColumns": "121,133",
+                        "endOffsets": "869,1003"
+                    }
+                },
                 {
                     "source": "/Users/theblessing/Documents/AAD/Latest/AndroidCertificationWorkout-master/app/caches/transforms-2/files-2.1/be6327719512c19af6e3dfcc948c3a09/appcompat-1.2.0/res/values-large-v4/values-large-v4.xml",
                     "from": {

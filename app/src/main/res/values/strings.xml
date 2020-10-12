@@ -2,4 +2,11 @@
     <string name="app_name">Covid19 Updates</string>
     <string name="splashscreen_text">Covid19 Updates</string>
     <string name="splash_header">GAD Community Project</string>
+    <string name="confirmed_cases">Confirmed Cases</string>
+    <string name="active_cases">Active Cases</string>
+    <string name="recovered_cases">Recovered Cases</string>
+    <string name="deaths">Deaths</string>
+    <string name="zero_value">0</string>
+    <string name="covid_19_world_data">Covid-19 World Data</string>
+    <string name="check_country_specific_data">Check Country Specific Data</string>
 </resources>
