@@ -14,9 +14,10 @@ public class SplashScreenActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+
         EasySplashScreen configSplash = new EasySplashScreen(SplashScreenActivity.this)
                 .withFullScreen()
-                .withTargetActivity(MainActivity.class)
+                .withTargetActivity(WorldActivity.class)
                 .withSplashTimeOut(4000)
                 .withBackgroundColor(Color.WHITE)
                 .withAfterLogoText(getString(R.string.splashscreen_text))
