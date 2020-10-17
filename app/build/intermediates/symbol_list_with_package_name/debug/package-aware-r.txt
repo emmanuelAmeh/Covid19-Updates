@@ -1918,8 +1918,6 @@ id textEnd
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
-id textView4
-id textView8
 id text_input_end_icon
 id text_input_start_icon
 id textinput_counter
@@ -1946,12 +1944,14 @@ id transition_transform
 id triangle
 id tv_worlddata_ac_value
 id tv_worlddata_active
+id tv_worlddata_active_cases
 id tv_worlddata_cc_value
 id tv_worlddata_confirmed
 id tv_worlddata_date
 id tv_worlddata_death_value
 id tv_worlddata_deaths
 id tv_worlddata_heading
+id tv_worlddata_rc_value
 id tv_worlddata_recorvered
 id unchecked
 id uniform
@@ -2134,9 +2134,11 @@ string bottom_sheet_behavior
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
+string check_country_specific_data
 string chip_text
 string clear_text_end_icon_content_description
 string confirmed_cases
+string covid_19_world_data
 string deaths
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
@@ -2192,6 +2194,7 @@ string search_menu_title
 string splash_header
 string splashscreen_text
 string status_bar_notification_info_overflow
+string text_updated_at
 string zero_value
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light

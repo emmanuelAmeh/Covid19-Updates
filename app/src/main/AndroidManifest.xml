@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.android.covid19updates">
 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:fullBackupContent="@xml/backup_rules"
@@ -12,7 +15,7 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".CountryListActivitiy"
-            android:parentActivityName=".WorldActivity"></activity>
+            android:parentActivityName=".WorldActivity" />
         <activity android:name=".WorldActivity" />
         <activity android:name=".SplashScreenActivity">
             <intent-filter>
@@ -23,5 +26,4 @@
         </activity>
         <activity android:name=".MainActivity" />
     </application>
-
 </manifest>
