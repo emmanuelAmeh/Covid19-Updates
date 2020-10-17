@@ -10,10 +10,16 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
+import static com.example.android.covid19updates.FetchData.getFormattedDate;
 import static com.example.android.covid19updates.FetchData.insertNumberComma;
 
 public class WorldActivity extends AppCompatActivity {
@@ -66,7 +72,8 @@ public class WorldActivity extends AppCompatActivity {
         TextView newRecoveries = findViewById(R.id.text_new_recoveries);
         TextView newDeaths = findViewById(R.id.text_new_deaths);*/
 
-        String updateMessage = updatedDate.getText().toString() + mUpdateDate;
+        String updateDate = getFormattedDate(mUpdateDate);
+        String updateMessage = updatedDate.getText().toString() + "\n" + updateDate;
         int totalCasesValue = Integer.parseInt(mData.totalConfirmed);
         int totalRecoveriesValue = Integer.parseInt(mData.totalRecovered);
         int totalDeathsValue = Integer.parseInt(mData.totalDeaths);
@@ -80,8 +87,6 @@ public class WorldActivity extends AppCompatActivity {
         /*newCases.setText(insertNumberComma(mData.newConfirmed));
         newRecoveries.setText(insertNumberComma(mData.newRecovered));
         newDeaths.setText(insertNumberComma(mData.newDeaths));*/
-
-        Log.d("formatNumber", insertNumberComma(mData.totalConfirmed));
     }
 
     public void openCountryListActivity(View view) {

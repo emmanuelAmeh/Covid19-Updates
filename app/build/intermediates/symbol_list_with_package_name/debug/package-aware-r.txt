@@ -2194,6 +2194,7 @@ string search_menu_title
 string splash_header
 string splashscreen_text
 string status_bar_notification_info_overflow
+string text_updated_at
 string zero_value
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light

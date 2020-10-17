@@ -2193,7 +2193,8 @@ int string search_menu_title 0x7f0e005a
 int string splash_header 0x7f0e005b
 int string splashscreen_text 0x7f0e005c
 int string status_bar_notification_info_overflow 0x7f0e005d
-int string zero_value 0x7f0e005e
+int string text_updated_at 0x7f0e005e
+int string zero_value 0x7f0e005f
 int style AlertDialog_AppCompat 0x7f0f0000
 int style AlertDialog_AppCompat_Light 0x7f0f0001
 int style AndroidThemeColorAccentYellow 0x7f0f0002

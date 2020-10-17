@@ -4,8 +4,12 @@ import android.content.Context;
 import android.util.Log;
 import android.widget.Toast;
 
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Date;
 import java.util.List;
 
 import retrofit2.Call;
@@ -88,5 +92,22 @@ class FetchData {
         }
 
         return number;
+    }
+
+    // formats the String from the API
+    public static String getFormattedDate (String inputDate){
+        DateFormat dateFormat = DateFormat.getDateTimeInstance();
+
+        Date date = new Date();
+        try {
+            date = dateFormat.parse(inputDate);
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+
+        DateFormat outputFormat = new SimpleDateFormat("EEEE, dd MMMM, yyyy 'at' HH:mm:ss");
+        String dateString = outputFormat.format(date);
+
+        return dateString;
     }
 }

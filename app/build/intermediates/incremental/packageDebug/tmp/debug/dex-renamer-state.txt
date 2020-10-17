@@ -1,4 +1,4 @@
-#Thu Oct 15 19:23:04 WAT 2020
+#Sat Oct 17 23:00:57 WAT 2020
 base.0=C\:\\Users\\gbola\\Android\\Covid19-Updates\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
