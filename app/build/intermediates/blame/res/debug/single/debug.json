@@ -4,10 +4,6 @@
         "source": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_country_list_activitiy.xml.flat",
-        "source": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\src\\main\\res\\layout\\activity_country_list_activitiy.xml"
-    },
-    {
         "merged": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
@@ -16,8 +12,16 @@
         "source": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_country_list.xml.flat",
+        "source": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\src\\main\\res\\layout\\activity_country_list.xml"
+    },
+    {
         "merged": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
         "source": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\build\\intermediates\\res\\merged\\debug\\layout_country_name.xml.flat",
+        "source": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\src\\main\\res\\layout\\country_name.xml"
     },
     {
         "merged": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
@@ -34,6 +38,10 @@
     {
         "merged": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_world.xml.flat",
         "source": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\src\\main\\res\\layout\\activity_world.xml"
+    },
+    {
+        "merged": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_country_detail.xml.flat",
+        "source": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\src\\main\\res\\layout\\activity_country_detail.xml"
     },
     {
         "merged": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_local_hospital.xml.flat",

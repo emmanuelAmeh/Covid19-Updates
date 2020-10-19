@@ -18,7 +18,7 @@
 12-->C:\Users\gbola\Android\Covid19-Updates\app\src\main\AndroidManifest.xml:6:22-64
 13
 14    <application
-14-->C:\Users\gbola\Android\Covid19-Updates\app\src\main\AndroidManifest.xml:8:5-28:19
+14-->C:\Users\gbola\Android\Covid19-Updates\app\src\main\AndroidManifest.xml:8:5-31:19
 15        android:allowBackup="true"
 15-->C:\Users\gbola\Android\Covid19-Updates\app\src\main\AndroidManifest.xml:9:9-35
 16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -40,31 +40,37 @@
 25        android:theme="@style/AppTheme" >
 25-->C:\Users\gbola\Android\Covid19-Updates\app\src\main\AndroidManifest.xml:15:9-40
 26        <activity
-26-->C:\Users\gbola\Android\Covid19-Updates\app\src\main\AndroidManifest.xml:16:9-18:59
-27            android:name="com.example.android.covid19updates.CountryListActivitiy"
-27-->C:\Users\gbola\Android\Covid19-Updates\app\src\main\AndroidManifest.xml:17:13-49
-28            android:parentActivityName="com.example.android.covid19updates.WorldActivity" />
-28-->C:\Users\gbola\Android\Covid19-Updates\app\src\main\AndroidManifest.xml:18:13-56
-29        <activity android:name="com.example.android.covid19updates.WorldActivity" />
-29-->C:\Users\gbola\Android\Covid19-Updates\app\src\main\AndroidManifest.xml:19:9-51
-29-->C:\Users\gbola\Android\Covid19-Updates\app\src\main\AndroidManifest.xml:19:19-48
-30        <activity android:name="com.example.android.covid19updates.SplashScreenActivity" >
-30-->C:\Users\gbola\Android\Covid19-Updates\app\src\main\AndroidManifest.xml:20:9-26:20
-30-->C:\Users\gbola\Android\Covid19-Updates\app\src\main\AndroidManifest.xml:20:19-55
-31            <intent-filter>
-31-->C:\Users\gbola\Android\Covid19-Updates\app\src\main\AndroidManifest.xml:21:13-25:29
-32                <action android:name="android.intent.action.MAIN" />
-32-->C:\Users\gbola\Android\Covid19-Updates\app\src\main\AndroidManifest.xml:22:17-69
-32-->C:\Users\gbola\Android\Covid19-Updates\app\src\main\AndroidManifest.xml:22:25-66
-33
-34                <category android:name="android.intent.category.LAUNCHER" />
-34-->C:\Users\gbola\Android\Covid19-Updates\app\src\main\AndroidManifest.xml:24:17-77
-34-->C:\Users\gbola\Android\Covid19-Updates\app\src\main\AndroidManifest.xml:24:27-74
-35            </intent-filter>
-36        </activity>
-37        <activity android:name="com.example.android.covid19updates.MainActivity" />
-37-->C:\Users\gbola\Android\Covid19-Updates\app\src\main\AndroidManifest.xml:27:9-50
-37-->C:\Users\gbola\Android\Covid19-Updates\app\src\main\AndroidManifest.xml:27:19-47
-38    </application>
-39
-40</manifest>
+26-->C:\Users\gbola\Android\Covid19-Updates\app\src\main\AndroidManifest.xml:16:9-18:65
+27            android:name="com.example.android.covid19updates.DetailActivity"
+27-->C:\Users\gbola\Android\Covid19-Updates\app\src\main\AndroidManifest.xml:17:13-43
+28            android:parentActivityName="com.example.android.covid19updates.CountryListActivity" />
+28-->C:\Users\gbola\Android\Covid19-Updates\app\src\main\AndroidManifest.xml:18:13-62
+29        <activity
+29-->C:\Users\gbola\Android\Covid19-Updates\app\src\main\AndroidManifest.xml:19:9-21:59
+30            android:name="com.example.android.covid19updates.CountryListActivity"
+30-->C:\Users\gbola\Android\Covid19-Updates\app\src\main\AndroidManifest.xml:20:13-48
+31            android:parentActivityName="com.example.android.covid19updates.WorldActivity" />
+31-->C:\Users\gbola\Android\Covid19-Updates\app\src\main\AndroidManifest.xml:21:13-56
+32        <activity android:name="com.example.android.covid19updates.WorldActivity" />
+32-->C:\Users\gbola\Android\Covid19-Updates\app\src\main\AndroidManifest.xml:22:9-51
+32-->C:\Users\gbola\Android\Covid19-Updates\app\src\main\AndroidManifest.xml:22:19-48
+33        <activity android:name="com.example.android.covid19updates.SplashScreenActivity" >
+33-->C:\Users\gbola\Android\Covid19-Updates\app\src\main\AndroidManifest.xml:23:9-29:20
+33-->C:\Users\gbola\Android\Covid19-Updates\app\src\main\AndroidManifest.xml:23:19-55
+34            <intent-filter>
+34-->C:\Users\gbola\Android\Covid19-Updates\app\src\main\AndroidManifest.xml:24:13-28:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->C:\Users\gbola\Android\Covid19-Updates\app\src\main\AndroidManifest.xml:25:17-69
+35-->C:\Users\gbola\Android\Covid19-Updates\app\src\main\AndroidManifest.xml:25:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->C:\Users\gbola\Android\Covid19-Updates\app\src\main\AndroidManifest.xml:27:17-77
+37-->C:\Users\gbola\Android\Covid19-Updates\app\src\main\AndroidManifest.xml:27:27-74
+38            </intent-filter>
+39        </activity>
+40        <activity android:name="com.example.android.covid19updates.MainActivity" />
+40-->C:\Users\gbola\Android\Covid19-Updates\app\src\main\AndroidManifest.xml:30:9-50
+40-->C:\Users\gbola\Android\Covid19-Updates\app\src\main\AndroidManifest.xml:30:19-47
+41    </application>
+42
+43</manifest>
