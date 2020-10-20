@@ -4,16 +4,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
-
-import java.text.DateFormat;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -90,7 +84,7 @@ public class WorldActivity extends AppCompatActivity {
     }
 
     public void openCountryListActivity(View view) {
-        Intent intent = new Intent(this, CountryListActivitiy.class);
+        Intent intent = new Intent(this, DetailActivity.class);
         startActivity(intent);
     }
 }

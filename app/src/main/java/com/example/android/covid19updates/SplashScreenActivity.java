@@ -1,6 +1,5 @@
 package com.example.android.covid19updates;
 
-import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 
@@ -19,7 +18,7 @@ public class SplashScreenActivity extends AppCompatActivity {
                 .withFullScreen()
                 .withTargetActivity(WorldActivity.class)
                 .withSplashTimeOut(4000)
-                .withBackgroundColor(Color.WHITE)
+//                .withBackgroundColor(Color.WHITE)
                 .withAfterLogoText(getString(R.string.splashscreen_text))
                 .withHeaderText(getString(R.string.splash_header))
                 .withLogo(R.drawable.ic_local_hospital);
