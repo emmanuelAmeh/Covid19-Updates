@@ -30,8 +30,7 @@ class FetchData {
 
     // formats the String from the API
     public static String getFormattedDate (String inputDate){
-        DateFormat dateFormat = DateFormat.getDateTimeInstance();
-        // DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSS");
+        DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss");
 
         Date date = new Date();
         try {
