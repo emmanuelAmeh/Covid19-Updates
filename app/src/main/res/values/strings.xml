@@ -10,9 +10,10 @@
     <string name="covid_19_world_data">Covid-19 World Data</string>
     <string name="check_country_specific_data">Check Country Specific Data</string>
     <string name="text_updated_at">Updated at</string>
-    <string name="text_total_cases">Total Cases</string>
-    <string name="text_total_recoveries">Total Recoveries</string>
-    <string name="text_total_deaths">Total Deaths</string>
-    <string name="text_new_cases">New Cases</string>
-    <string name="text_new_deaths">New Deaths</string>
+    <string name="tv_country_popn">Population</string>
+    <string name="recovery_rate">Recovery Rate</string>
+    <string name="death_rate">Death Rate</string>
+    <string name="today">TODAY</string>
+    <string name="cases_per_million">Cases per million</string>
+    <string name="others">OTHERS</string>
 </resources>

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primaryColor">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/tv_worlddata_active"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".WorldActivity">
+
+
+        <TextView
+            android:id="@+id/tv_country_others"
+            style="@style/TextViewsFieldsSection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/others"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_country_death_value_today" />
+
+        <TextView
+            android:id="@+id/tv_country_cpm_value"
+            style="@style/TextViewsFieldsYellow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/zero_value"
+            app:layout_constraintStart_toStartOf="@+id/tv_country_death_value"
+            app:layout_constraintTop_toTopOf="@+id/tv_country_cases_per_million" />
+
+        <TextView
+            android:id="@+id/tv_country_cases_per_million"
+            style="@style/TextViewsFieldsYellow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/cases_per_million"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_country_others" />
+
+        <TextView
+            android:id="@+id/tv_country_recovery_rate_value"
+            style="@style/TextViewsFieldsGreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/zero_value"
+            app:layout_constraintStart_toStartOf="@+id/tv_country_cpm_value"
+            app:layout_constraintTop_toTopOf="@+id/tv_country_recovery_rate" />
+
+        <TextView
+            android:id="@+id/tv_country_deathrate_value"
+            style="@style/TextViewsFieldsRed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/zero_value"
+            app:layout_constraintStart_toStartOf="@+id/tv_country_recovery_rate_value"
+            app:layout_constraintTop_toTopOf="@+id/tv_country_death_rate" />
+
+        <TextView
+            android:id="@+id/tv_country_recovery_rate"
+            style="@style/TextViewsFieldsGreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/recovery_rate"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_country_cases_per_million" />
+
+        <TextView
+            android:id="@+id/tv_country_death_rate"
+            style="@style/TextViewsFieldsRed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="32dp"
+            android:text="@string/death_rate"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_country_recovery_rate" />
+
+        <TextView
+            android:id="@+id/tv_country_cc_value_today"
+            style="@style/TextViewsFieldsYellow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/zero_value"
+            app:layout_constraintStart_toStartOf="@+id/tv_country_death_value"
+            app:layout_constraintTop_toTopOf="@+id/tv_country_confirmed_today" />
+
+        <TextView
+            android:id="@+id/tv_country_heading"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/covid_19_world_data"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_worlddata_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/text_updated_at"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_country_heading" />
+
+        <TextView
+            android:id="@+id/tv_country_confirmed"
+            style="@style/TextViewsFieldsYellow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/confirmed_cases"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_country_population" />
+
+        <TextView
+            android:id="@+id/tv_country_confirmed_today"
+            style="@style/TextViewsFieldsYellow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/confirmed_cases"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_country_today" />
+
+        <TextView
+            android:id="@+id/tv_country_active_cases"
+            style="@style/TextViewsFields2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/active_cases"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_country_recorvered" />
+
+        <TextView
+            android:id="@+id/tv_country_today"
+            style="@style/TextViewsFieldsSection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/today"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_country_death_value" />
+
+        <TextView
+            android:id="@+id/tv_country_recorvered"
+            style="@style/TextViewsFieldsGreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/recovered_cases"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_country_confirmed" />
+
+        <TextView
+            android:id="@+id/tv_country_deaths"
+            style="@style/TextViewsFieldsRed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/deaths"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_country_active_cases" />
+
+        <TextView
+            android:id="@+id/tv_country_deaths_today"
+            style="@style/TextViewsFieldsRed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/deaths"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_country_confirmed_today" />
+
+        <TextView
+            android:id="@+id/tv_country_cc_value"
+            style="@style/TextViewsFieldsYellow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:text="@string/zero_value"
+            app:layout_constraintStart_toEndOf="@+id/tv_country_confirmed"
+            app:layout_constraintTop_toTopOf="@+id/tv_country_confirmed" />
+
+        <TextView
+            android:id="@+id/tv_country_rc_value"
+            style="@style/TextViewsFieldsGreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/zero_value"
+            app:layout_constraintStart_toStartOf="@+id/tv_country_cc_value"
+            app:layout_constraintTop_toTopOf="@+id/tv_country_recorvered" />
+
+        <TextView
+            android:id="@+id/tv_country_ac_value"
+            style="@style/TextViewsFields2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/zero_value"
+            app:layout_constraintStart_toStartOf="@+id/tv_country_rc_value"
+            app:layout_constraintTop_toTopOf="@+id/tv_country_active_cases" />
+
+        <TextView
+            android:id="@+id/tv_country_death_value"
+            style="@style/TextViewsFieldsRed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/zero_value"
+            app:layout_constraintStart_toStartOf="@+id/tv_country_ac_value"
+            app:layout_constraintTop_toTopOf="@+id/tv_country_deaths" />
+
+        <TextView
+            android:id="@+id/tv_country_death_value_today"
+            style="@style/TextViewsFieldsRed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/zero_value"
+            app:layout_constraintStart_toStartOf="@+id/tv_country_cc_value_today"
+            app:layout_constraintTop_toTopOf="@+id/tv_country_deaths_today" />
+
+
+        <TextView
+            android:id="@+id/tv_country_population"
+            style="@style/TextViewsFields2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#2196F3"
+            android:text="@string/tv_country_popn"
+            android:textColor="@color/primaryTextColor"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_worlddata_date" />
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/TextViewsFields2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#2196F3"
+            android:text="@string/zero_value"
+            android:textColor="@color/primaryTextColor"
+            app:layout_constraintStart_toStartOf="@+id/tv_country_cc_value"
+            app:layout_constraintTop_toTopOf="@+id/tv_country_population" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
