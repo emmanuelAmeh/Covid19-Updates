@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Covid19 Updates</string>
+    <string name="covid_19">COVID19</string>
+    <string name="applogo">appLogo</string>
+    <string name="updates">UPDATES</string>
+    <string name="next_activity">NEXT ACTIVITY</string>
 </resources>

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/theblessing/Library/Caches/AndroidStudio3.6/Covid19Updates/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v22/values-v22.xml",
+            "outputFile": "C:\\Users\\Blessing\\AndroidStudioProjects\\Covid19-Updates\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
             "map": [
                 {
-                    "source": "/Users/theblessing/Documents/AAD/Latest/AndroidCertificationWorkout-master/app/caches/transforms-2/files-2.1/be6327719512c19af6e3dfcc948c3a09/appcompat-1.2.0/res/values-v22/values-v22.xml",
+                    "source": "C:\\Users\\Blessing\\.gradle\\caches\\transforms-2\\files-2.1\\be6327719512c19af6e3dfcc948c3a09\\appcompat-1.2.0\\res\\values-v22\\values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",
