@@ -17,72 +17,6 @@ import retrofit2.Callback;
 import retrofit2.Response;
 
 class FetchData {
-    APIInterface mAPIInterface;
-    private WorldData.Global mData;
-    private Context mContext;
-    // private CountryData mCountryData;
-    private List<String> mCountryNameList;
-    // private List<CountryData.Info> mInfoList;
-
-    FetchData(Context context){
-        mContext = context;
-        mData = null;
-        mCountryNameList = new ArrayList<>();
-        // mInfoList = new ArrayList<>();
-    }
-
-    public WorldData.Global getWorldData () {
-        mAPIInterface = APIClient.getClient().create(APIInterface.class);
-
-        final Call<WorldData> worldData = mAPIInterface.getWorldData();
-        worldData.enqueue(new Callback<WorldData>() {
-            @Override
-            public void onResponse (Call<WorldData> call, Response<WorldData> response) {
-                WorldData data = response.body();
-                mData = data.global;
-                Log.e("GetResponse", String.valueOf(response.code()));
-                Toast.makeText(mContext, "Successfully loaded world data", Toast.LENGTH_LONG).show();
-            }
-
-            @Override
-            public void onFailure (Call<WorldData> call, Throwable t) {
-                Toast.makeText(mContext, "Something went wrong...Please try later!", Toast.LENGTH_LONG).show();
-                Log.e("GetResponse", t.getMessage());
-                t.printStackTrace();
-            }
-        });
-
-        return mData;
-    }
-
-    /*public List<CountryData.Info> getCountryData () {
-        mAPIInterface = APIClient.getClient().create(APIInterface.class);
-
-        final Call<CountryData> countryData = mAPIInterface.getCountryData();
-        countryData.enqueue(new Callback<CountryData>() {
-            @Override
-            public void onResponse (Call<CountryData> call, Response<CountryData> response) {
-                mCountryData = response.body();
-
-                for (CountryData.Info info : mCountryData.data) {
-                    mCountryNameList.add(info.name);
-                    mInfoList.add(info);
-                }
-
-                Collections.sort(mCountryNameList);
-
-                Toast.makeText(mContext, "Successfully loaded countries data", Toast.LENGTH_LONG).show();
-            }
-
-            @Override
-            public void onFailure (Call<CountryData> call, Throwable t) {
-                Toast.makeText(mContext, "Something went wrong...Please try later!", Toast.LENGTH_LONG).show();
-            }
-        });
-
-        return mInfoList;
-    }*/
-
     // formats the nunbers with commas(,) every three digits from the right
     public static String insertNumberComma (String number){
         for (int i = number.length() - 3; i > 0; i -= 3){
@@ -96,7 +30,7 @@ class FetchData {
 
     // formats the String from the API
     public static String getFormattedDate (String inputDate){
-        DateFormat dateFormat = DateFormat.getDateTimeInstance();
+        DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss");
 
         Date date = new Date();
         try {

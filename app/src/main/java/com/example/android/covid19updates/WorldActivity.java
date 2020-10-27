@@ -4,16 +4,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import java.text.DateFormat;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
+import java.util.Objects;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -55,7 +51,7 @@ public class WorldActivity extends AppCompatActivity {
             @Override
             public void onFailure (Call<WorldData> call, Throwable t) {
                 Toast.makeText(getBaseContext(), "Something went wrong...Please try later!", Toast.LENGTH_LONG).show();
-                Log.e("GetResponse", t.getMessage());
+                Log.e("GetResponse", Objects.requireNonNull(t.getMessage()));
                 t.printStackTrace();
             }
         });
@@ -63,14 +59,11 @@ public class WorldActivity extends AppCompatActivity {
 
     // sets textviews for each data point
     private void initializeDisplayContent () {
-        TextView updatedDate = findViewById(R.id.tv_worlddata_date);
+        TextView updatedDate = findViewById(R.id.tv_country_updated_at);
         TextView totalCases = findViewById(R.id.tv_worlddata_cc_value);
         TextView totalRecoveries = findViewById(R.id.tv_worlddata_rc_value);
         TextView activeCases = findViewById(R.id.tv_worlddata_ac_value);
         TextView totalDeaths = findViewById(R.id.tv_worlddata_death_value);
-        /*TextView newCases = findViewById(R.id.text_new_cases);
-        TextView newRecoveries = findViewById(R.id.text_new_recoveries);
-        TextView newDeaths = findViewById(R.id.text_new_deaths);*/
 
         String updateDate = getFormattedDate(mUpdateDate);
         String updateMessage = updatedDate.getText().toString() + "\n" + updateDate;
@@ -84,13 +77,10 @@ public class WorldActivity extends AppCompatActivity {
         totalRecoveries.setText(insertNumberComma(mData.totalRecovered));
         activeCases.setText(insertNumberComma(String.valueOf(activeCasesValue)));
         totalDeaths.setText(insertNumberComma(mData.totalDeaths));
-        /*newCases.setText(insertNumberComma(mData.newConfirmed));
-        newRecoveries.setText(insertNumberComma(mData.newRecovered));
-        newDeaths.setText(insertNumberComma(mData.newDeaths));*/
     }
 
     public void openCountryListActivity(View view) {
-        Intent intent = new Intent(this, CountryListActivitiy.class);
+        Intent intent = new Intent(this, CountryListActivity.class);
         startActivity(intent);
     }
 }

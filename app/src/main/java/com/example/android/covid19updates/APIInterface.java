@@ -5,8 +5,8 @@ import retrofit2.http.GET;
 
 interface APIInterface {
 
-    // @GET("/countries")
-    // Call<CountryData> getCountryData ();
+    @GET("/countries")
+    Call<CountryData> getCountryData ();
 
     @GET("/summary")
     Call<WorldData> getWorldData ();
