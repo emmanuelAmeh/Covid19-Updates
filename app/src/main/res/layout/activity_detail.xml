@@ -15,7 +15,8 @@
 
         <TextView
             android:id="@+id/tv_country_others"
-            style="@style/TextViewsFieldsSection"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:textColor="@color/primaryTextColor"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
@@ -96,7 +97,7 @@
             app:layout_constraintTop_toTopOf="@+id/tv_country_confirmed_today" />
 
         <TextView
-            android:id="@+id/tv_country_heading"
+            android:id="@+id/tv_country_name"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
@@ -110,7 +111,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/tv_worlddata_date"
+            android:id="@+id/tv_country_updated_at"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
@@ -119,7 +120,7 @@
             android:textColor="#FFFFFF"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tv_country_heading" />
+            app:layout_constraintTop_toBottomOf="@+id/tv_country_name" />
 
         <TextView
             android:id="@+id/tv_country_confirmed"
@@ -156,11 +157,12 @@
 
         <TextView
             android:id="@+id/tv_country_today"
-            style="@style/TextViewsFieldsSection"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
             android:text="@string/today"
+            android:textColor="@color/primaryTextColor"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tv_country_death_value" />
@@ -248,24 +250,24 @@
         <TextView
             android:id="@+id/tv_country_population"
             style="@style/TextViewsFields2"
+            android:backgroundTint="@color/primaryTextColor"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
-            android:backgroundTint="#2196F3"
             android:text="@string/tv_country_popn"
-            android:textColor="@color/primaryTextColor"
+            android:textColor="@color/primaryDarkColor"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tv_worlddata_date" />
+            app:layout_constraintTop_toBottomOf="@+id/tv_country_updated_at" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/tv_country_population_value"
             style="@style/TextViewsFields2"
+            android:backgroundTint="@color/primaryTextColor"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="#2196F3"
             android:text="@string/zero_value"
-            android:textColor="@color/primaryTextColor"
+            android:textColor="@color/primaryDarkColor"
             app:layout_constraintStart_toStartOf="@+id/tv_country_cc_value"
             app:layout_constraintTop_toTopOf="@+id/tv_country_population" />
 

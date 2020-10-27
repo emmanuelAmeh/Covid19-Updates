@@ -15,5 +15,6 @@
     <string name="death_rate">Death Rate</string>
     <string name="today">TODAY</string>
     <string name="cases_per_million">Cases per million</string>
-    <string name="others">OTHERS</string>
+    <string name="others">RATES</string>
+    <string name="country_name">Country Name</string>
 </resources>

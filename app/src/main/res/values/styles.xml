@@ -47,11 +47,11 @@
         <item name="android:textColor">@color/primaryDarkColor</item>
     </style>
 
-    <style name="TextViewsFieldsSection">
+    <style name="ButtonCtry" parent="Widget.AppCompat.Button">
         <!-- Customize your theme here. -->
-        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Body1</item>
-        <item name="android:background">@drawable/rounded_backgroud</item>
-        <item name="android:backgroundTint">#C13BD8</item>
+        <!--        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Body1</item>-->
+        <!--        <item name="android:background">@drawable/rounded_backgroud</item>-->
+        <!--        <item name="android:backgroundTint">#C13BD8</item>-->
         <item name="android:textColor">@color/primaryTextColor</item>
     </style>
 

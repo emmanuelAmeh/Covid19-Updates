@@ -28,6 +28,10 @@
         "source": "/Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },
     {
+        "merged": "/Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/build/intermediates/res/merged/debug/drawable_rounded_backgroud.xml.flat",
+        "source": "/Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/res/drawable/rounded_backgroud.xml"
+    },
+    {
         "merged": "/Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "/Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
     },
@@ -38,10 +42,6 @@
     {
         "merged": "/Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/build/intermediates/res/merged/debug/layout_country_name.xml.flat",
         "source": "/Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/res/layout/country_name.xml"
-    },
-    {
-        "merged": "/Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/build/intermediates/res/merged/debug/layout_activity_country_detail.xml.flat",
-        "source": "/Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/res/layout/activity_country_detail.xml"
     },
     {
         "merged": "/Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/build/intermediates/res/merged/debug/layout_activity_country_list.xml.flat",
@@ -78,10 +78,6 @@
     {
         "merged": "/Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/build/intermediates/res/merged/debug/layout_activity_world.xml.flat",
         "source": "/Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/res/layout/activity_world.xml"
-    },
-    {
-        "merged": "/Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/build/intermediates/res/merged/debug/layout_activity_country_list_activitiy.xml.flat",
-        "source": "/Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/res/layout/activity_country_list_activitiy.xml"
     },
     {
         "merged": "/Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
