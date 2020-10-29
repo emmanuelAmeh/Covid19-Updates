@@ -1,30 +1,27 @@
 package com.example.android.covid19updates;
 
-import android.graphics.Color;
+import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
+import android.os.Handler;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import gr.net.maroulis.library.EasySplashScreen;
-
 public class SplashScreenActivity extends AppCompatActivity {
+    public static int TIME_OUT = 3000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_splashscreen);
 
-
-        EasySplashScreen configSplash = new EasySplashScreen(SplashScreenActivity.this)
-                .withFullScreen()
-                .withTargetActivity(WorldActivity.class)
-                .withSplashTimeOut(4000)
-                .withBackgroundColor(Color.WHITE)
-                .withAfterLogoText(getString(R.string.splashscreen_text))
-                .withHeaderText(getString(R.string.splash_header))
-                .withLogo(R.drawable.ic_local_hospital);
-
-        View easySplashScreen = configSplash.create();
-        setContentView(easySplashScreen);
+        Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                Intent intent = new Intent(SplashScreenActivity.this, WorldActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        },TIME_OUT);
     }
 }
