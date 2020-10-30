@@ -10,6 +10,7 @@
     <color name="yellow_bkgd">#FFEB3B</color>
     <color name="red_bkgd">#F44336</color>
     <color name="green_bkgd">#4CAF50</color>
+=======
     <color name="white">#FFFFFF</color>
     <color name="progressbarColor">#7A0909</color>
     <color name="blackTextColor">#000000</color>

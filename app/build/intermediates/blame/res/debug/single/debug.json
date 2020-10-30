@@ -4,28 +4,28 @@
         "source": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_country_list_activitiy.xml.flat",
-        "source": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\src\\main\\res\\layout\\activity_country_list_activitiy.xml"
+        "merged": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_outline_info_24.xml.flat",
+        "source": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\src\\main\\res\\drawable\\ic_outline_info_24.xml"
     },
     {
-        "merged": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_backgroud.xml.flat",
+        "source": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\src\\main\\res\\drawable\\rounded_backgroud.xml"
     },
     {
-        "merged": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_share.xml.flat",
+        "source": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\src\\main\\res\\menu\\menu_share.xml"
     },
     {
         "merged": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
         "source": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\build\\intermediates\\res\\merged\\debug\\layout_country_name.xml.flat",
+        "source": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\src\\main\\res\\layout\\country_name.xml"
     },
     {
-        "merged": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
@@ -36,20 +36,12 @@
         "source": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\src\\main\\res\\layout\\activity_world.xml"
     },
     {
-        "merged": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_local_hospital.xml.flat",
-        "source": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\src\\main\\res\\drawable\\ic_local_hospital.xml"
-    },
-    {
-        "merged": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
-    },
-    {
         "merged": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_detail.xml.flat",
+        "source": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\src\\main\\res\\layout\\activity_detail.xml"
     },
     {
         "merged": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
@@ -60,6 +52,46 @@
         "source": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
+        "merged": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_share_24.xml.flat",
+        "source": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\src\\main\\res\\drawable\\ic_baseline_share_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_credits.xml.flat",
+        "source": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\src\\main\\res\\layout\\activity_credits.xml"
+    },
+    {
+        "merged": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_country_list.xml.flat",
+        "source": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\src\\main\\res\\layout\\activity_country_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_local_hospital.xml.flat",
+        "source": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\src\\main\\res\\drawable\\ic_local_hospital.xml"
+    },
+    {
+        "merged": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
         "merged": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\build\\intermediates\\res\\merged\\debug\\xml_backup_rules.xml.flat",
         "source": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\src\\main\\res\\xml\\backup_rules.xml"
     },
@@ -68,11 +100,11 @@
         "source": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
-    },
-    {
         "merged": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\build\\intermediates\\res\\merged\\debug\\menu_credits.xml.flat",
+        "source": "C:\\Users\\gbola\\Android\\Covid19-Updates\\app\\src\\main\\res\\menu\\credits.xml"
     }
 ]
