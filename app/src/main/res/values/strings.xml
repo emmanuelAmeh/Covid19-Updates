@@ -1,7 +1,6 @@
 <resources>
-    <string name="app_name">Covid19 Updates</string>
-    <string name="splashscreen_text">Covid19 Updates</string>
-    <string name="splash_header">GAD Community Project</string>
+    <string name="app_name">Covid-19 Updates</string>
+    <string name="applogo">appLogo</string>
     <string name="confirmed_cases">Confirmed Cases</string>
     <string name="active_cases">Active Cases</string>
     <string name="recovered_cases">Recovered Cases</string>
@@ -10,4 +9,11 @@
     <string name="covid_19_world_data">Covid-19 World Data</string>
     <string name="check_country_specific_data">Check Country Specific Data</string>
     <string name="text_updated_at">Updated at</string>
+    <string name="tv_country_popn">Population</string>
+    <string name="recovery_rate">Recovery Rate</string>
+    <string name="death_rate">Death Rate</string>
+    <string name="today">TODAY</string>
+    <string name="cases_per_million">Cases per million</string>
+    <string name="others">RATES</string>
+    <string name="country_name">Country Name</string>
 </resources>

@@ -1,16 +1,59 @@
 <resources>
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.MaterialComponents.NoActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/primaryDarkColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor1</item>
+
+        <item name="colorAccent">@color/primaryLightColor</item>
     </style>
 
     <style name="TextViewsFields">
         <!-- Customize your theme here. -->
         <item name="android:textAppearance">@style/TextAppearance.AppCompat.Body1</item>
+        <item name="android:background">@drawable/rounded_background</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
 
+    </style>
+
+    <style name="TextViewsFields2">
+        <!-- Customize your theme here. -->
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Body1</item>
+        <item name="android:background">@drawable/rounded_background</item>
+        <item name="android:backgroundTint">#D2C6D5</item>
+        <item name="android:textColor">@color/blackTextColor</item>
+    </style>
+
+    <style name="TextViewsFieldsGreen">
+        <!-- Customize your theme here. -->
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Body1</item>
+        <item name="android:background">@drawable/rounded_background</item>
+        <item name="android:backgroundTint">@color/green_bkgd</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="TextViewsFieldsRed">
+        <!-- Customize your theme here. -->
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Body1</item>
+        <item name="android:background">@drawable/rounded_background</item>
+        <item name="android:backgroundTint">@color/red_bkgd</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="TextViewsFieldsYellow">
+        <!-- Customize your theme here. -->
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Body1</item>
+        <item name="android:background">@drawable/rounded_background</item>
+        <item name="android:backgroundTint">@color/yellow_bkgd</item>
+        <item name="android:textColor">@color/blackTextColor</item>
+    </style>
+
+    <style name="ButtonCtry" parent="Widget.AppCompat.Button">
+        <!-- Customize your theme here. -->
+        <!--        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Body1</item>-->
+        <!--        <item name="android:background">@drawable/rounded_background</item>-->
+        <!--        <item name="android:backgroundTint">#C13BD8</item>-->
+        <item name="android:textColor">@color/primaryTextColor</item>
     </style>
 
 </resources>
