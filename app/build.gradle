@@ -30,6 +30,8 @@ dependencies {
     //for splash screen
     implementation 'gr.pantrif:easy-android-splash-screen:0.0.1'
 
+
+
     //for google material widgets
     implementation 'com.google.android.material:material:1.2.1'
 
