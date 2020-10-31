@@ -17,4 +17,14 @@
     <string name="cases_per_million">Cases per million</string>
     <string name="others">RATES</string>
     <string name="country_name">Country Name</string>
+    <string name="credits_menu_title">Credits</string>
+    <string name="text_emmanuel">Emmanuel Ameh</string>
+    <string name="text_joshua">Joshua Eselebor</string>
+    <string name="text_obiamaka">Obiamaka Nzekwu</string>
+    <string name="text_gbolahan">Gbolahan Awoseyila</string>
+    <string name="source_corona_api">https://corona-api.com/countries</string>
+    <string name="source_covid19api">https://api.covid19api.com/summary</string>
+    <string name="text_share_action">Share COVID 19 Data</string>
+    <string name="contributors">Contributors</string>
+    <string name="sources">Sources</string>
 </resources>

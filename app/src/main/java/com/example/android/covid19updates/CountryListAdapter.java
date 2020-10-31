@@ -54,7 +54,7 @@ class CountryListAdapter extends RecyclerView.Adapter<CountryListAdapter.ViewHol
         public ViewHolder (@NonNull final View itemView) {
             super(itemView);
 
-            mTextCountryName = itemView.findViewById(R.id.text_country_name);
+            mTextCountryName = itemView.findViewById(R.id.tv_name_emmanuel);
 
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override

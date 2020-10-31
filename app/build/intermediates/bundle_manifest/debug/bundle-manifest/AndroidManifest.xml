@@ -8,8 +8,8 @@
         android:minSdkVersion="22"
         android:targetSdkVersion="29" />
 
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -24,20 +24,24 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
+            android:name="com.example.android.covid19updates.CreditsActivity"
+            android:parentActivityName="com.example.android.covid19updates.WorldActivity" />
+        <activity
             android:name="com.example.android.covid19updates.DetailActivity"
             android:parentActivityName="com.example.android.covid19updates.CountryListActivity" />
         <activity
             android:name="com.example.android.covid19updates.CountryListActivity"
             android:parentActivityName="com.example.android.covid19updates.WorldActivity" />
         <activity android:name="com.example.android.covid19updates.WorldActivity" />
-        <activity android:name="com.example.android.covid19updates.SplashScreenActivity" >
+        <activity
+            android:name="com.example.android.covid19updates.SplashScreenActivity"
+            android:theme="@style/SplashTheme" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.android.covid19updates.MainActivity" />
     </application>
 
 </manifest>
