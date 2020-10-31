@@ -9,9 +9,13 @@
         android:minSdkVersion="22"
         android:targetSdkVersion="29" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:configChanges="orientation|keyboardHidden|screenSize"
         android:debuggable="true"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
@@ -20,7 +24,19 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.android.covid19updates.MainActivity" >
+        <activity
+            android:name="com.example.android.covid19updates.CreditsActivity"
+            android:parentActivityName="com.example.android.covid19updates.WorldActivity" />
+        <activity
+            android:name="com.example.android.covid19updates.DetailActivity"
+            android:parentActivityName="com.example.android.covid19updates.CountryListActivity" />
+        <activity
+            android:name="com.example.android.covid19updates.CountryListActivity"
+            android:parentActivityName="com.example.android.covid19updates.WorldActivity" />
+        <activity android:name="com.example.android.covid19updates.WorldActivity" />
+        <activity
+            android:name="com.example.android.covid19updates.SplashScreenActivity"
+            android:theme="@style/SplashTheme" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
