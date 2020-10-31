@@ -33,14 +33,15 @@
             android:name="com.example.android.covid19updates.CountryListActivity"
             android:parentActivityName="com.example.android.covid19updates.WorldActivity" />
         <activity android:name="com.example.android.covid19updates.WorldActivity" />
-        <activity android:name="com.example.android.covid19updates.SplashScreenActivity" >
+        <activity
+            android:name="com.example.android.covid19updates.SplashScreenActivity"
+            android:theme="@style/SplashTheme" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.android.covid19updates.MainActivity" />
     </application>
 
 </manifest>

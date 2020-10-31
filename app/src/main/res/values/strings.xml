@@ -25,4 +25,6 @@
     <string name="source_corona_api">https://corona-api.com/countries</string>
     <string name="source_covid19api">https://api.covid19api.com/summary</string>
     <string name="text_share_action">Share COVID 19 Data</string>
+    <string name="contributors">Contributors</string>
+    <string name="sources">Sources</string>
 </resources>

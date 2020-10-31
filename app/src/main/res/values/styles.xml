@@ -7,6 +7,13 @@
         <item name="colorAccent">@color/primaryLightColor</item>
     </style>
 
+    <style name="SplashTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primaryDarkColor</item>
+        <item name="colorPrimaryDark">#0C0000</item>
+        <item name="colorAccent">@color/primaryLightColor</item>
+    </style>
+
     <style name="TextViewsFields">
         <!-- Customize your theme here. -->
         <item name="android:textAppearance">@style/TextAppearance.AppCompat.Body1</item>
