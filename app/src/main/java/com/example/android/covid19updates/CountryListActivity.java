@@ -1,14 +1,16 @@
 package com.example.android.covid19updates;
 
 import android.os.Bundle;
-import android.view.View;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
+import android.view.inputmethod.EditorInfo;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.SearchView;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
-import com.google.android.material.snackbar.Snackbar;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -24,9 +26,11 @@ public class CountryListActivity extends AppCompatActivity {
     private CountryData mCountryData;
     private List<CountryData.Info> mInfoList;
     private List<String> mCountryNameList;
+    private CountryListAdapter mAdapter;
+    private SearchView mSearchView;
 
     @Override
-    protected void onCreate (Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_country_list);
         getSupportActionBar().setTitle("Countries");
@@ -65,11 +69,53 @@ public class CountryListActivity extends AppCompatActivity {
         });
     }
 
-    private void initializeDisplayContent () {
+    private void initializeDisplayContent() {
         final LinearLayoutManager layoutManager = new LinearLayoutManager(this);
-        CountryListAdapter adapter = new CountryListAdapter(this, mInfoList, mCountryNameList);
-
+        mAdapter = new CountryListAdapter(this, mInfoList, mCountryNameList);
         mRecyclerItems.setLayoutManager(layoutManager);
-        mRecyclerItems.setAdapter(adapter);
+        mRecyclerItems.setAdapter(mAdapter);
+        mAdapter.notifyDataSetChanged();
     }
+
+    //implementing SearchView
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.search_menu, menu);
+        MenuItem searchItem = menu.findItem(R.id.action_search);
+        mSearchView = (SearchView) searchItem.getActionView();
+        mSearchView.setSubmitButtonEnabled(true);
+        mSearchView.setQueryRefinementEnabled(true);
+        mSearchView.setImeOptions(EditorInfo.IME_ACTION_SEARCH);
+        mSearchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+            @Override
+            public boolean onQueryTextSubmit(String query) {
+                mAdapter.getFilter().filter(query);
+                return false;
+            }
+
+            @Override
+            public boolean onQueryTextChange(String newText) {
+                mAdapter.getFilter().filter(newText);
+                // mAdapter.notifyDataSetChanged();
+                return false;
+            }
+        });
+        return true;
+    }
+
+    @Override
+    public void onBackPressed() {
+        String searchText = (String) mSearchView.getQuery();
+        if (!mSearchView.isIconified() && mSearchView != null) {
+            mSearchView.setIconified(true);
+            mSearchView.onActionViewCollapsed();
+            mSearchView.setQuery(searchText, true);
+        } else {
+            super.onBackPressed();
+        }
+
+    }
+
+
 }

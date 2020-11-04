@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml:2:1-36:12
-INJECTED from /Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml:2:1-36:12
-INJECTED from /Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml:2:1-36:12
-INJECTED from /Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml:2:1-36:12
+ADDED from /Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml:2:1-37:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.2] /Users/theblessing/Documents/AAD/Latest/AndroidCertificationWorkout-master/app/caches/transforms-2/files-2.1/8751d594f7901ec13d3c16253d123aac/constraintlayout-2.0.2/AndroidManifest.xml:2:1-11:12
 MERGED from [gr.pantrif:easy-android-splash-screen:0.0.1] /Users/theblessing/Documents/AAD/Latest/AndroidCertificationWorkout-master/app/caches/transforms-2/files-2.1/d1f33582e59cb55a546387174d7b7547/jetified-easy-android-splash-screen-0.0.1/AndroidManifest.xml:2:1-19:12
 MERGED from [com.google.android.material:material:1.2.1] /Users/theblessing/Documents/AAD/Latest/AndroidCertificationWorkout-master/app/caches/transforms-2/files-2.1/b5cf40796c25367401fbf6ec124658c0/material-1.2.1/AndroidManifest.xml:17:1-24:12
@@ -33,20 +33,20 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/theblessing/Doc
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/theblessing/Documents/AAD/Latest/AndroidCertificationWorkout-master/app/caches/transforms-2/files-2.1/abfb1986835d7863ad588927944dd5ef/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/theblessing/Documents/AAD/Latest/AndroidCertificationWorkout-master/app/caches/transforms-2/files-2.1/88958e78a03a39da36d379d2c8b6a4b0/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/theblessing/Documents/AAD/Latest/AndroidCertificationWorkout-master/app/caches/transforms-2/files-2.1/faa46d3172606436a70f4954c4fe88af/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml:2:1-36:12
-INJECTED from /Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml:2:1-36:12
-INJECTED from /Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml:2:1-37:12
 	package
 		ADDED from /Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml:3:5-49
 		INJECTED from /Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml
-		ADDED from /Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml:2:1-36:12
+		ADDED from /Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml:2:1-37:12
 		INJECTED from /Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml
-		ADDED from /Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml:2:1-36:12
+		ADDED from /Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml:2:1-37:12
 		INJECTED from /Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml:2:11-69
@@ -59,7 +59,7 @@ ADDED from /Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/
 	android:name
 		ADDED from /Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml:7:22-76
 application
-ADDED from /Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml:9:5-35:19
+ADDED from /Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml:9:5-36:19
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.2] /Users/theblessing/Documents/AAD/Latest/AndroidCertificationWorkout-master/app/caches/transforms-2/files-2.1/8751d594f7901ec13d3c16253d123aac/constraintlayout-2.0.2/AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.2] /Users/theblessing/Documents/AAD/Latest/AndroidCertificationWorkout-master/app/caches/transforms-2/files-2.1/8751d594f7901ec13d3c16253d123aac/constraintlayout-2.0.2/AndroidManifest.xml:9:5-20
 MERGED from [gr.pantrif:easy-android-splash-screen:0.0.1] /Users/theblessing/Documents/AAD/Latest/AndroidCertificationWorkout-master/app/caches/transforms-2/files-2.1/d1f33582e59cb55a546387174d7b7547/jetified-easy-android-splash-screen-0.0.1/AndroidManifest.xml:12:5-17:19
@@ -111,21 +111,21 @@ ADDED from /Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/
 	android:name
 		ADDED from /Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml:26:19-48
 activity#com.example.android.covid19updates.SplashScreenActivity
-ADDED from /Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml:27:9-34:20
+ADDED from /Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml:27:9-35:20
 	android:theme
-		ADDED from /Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml:28:13-47
+		ADDED from /Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml:29:13-47
 	android:name
-		ADDED from /Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml:27:19-55
+		ADDED from /Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml:28:13-49
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml:29:13-33:29
+ADDED from /Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml:30:13-34:29
 action#android.intent.action.MAIN
-ADDED from /Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml:30:17-69
+ADDED from /Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml:31:17-69
 	android:name
-		ADDED from /Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml:30:25-66
+		ADDED from /Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml:31:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml:32:17-77
+ADDED from /Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml:33:17-77
 	android:name
-		ADDED from /Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml:32:27-74
+		ADDED from /Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml:33:27-74
 uses-sdk
 INJECTED from /Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml

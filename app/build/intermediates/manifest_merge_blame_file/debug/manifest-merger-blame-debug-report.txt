@@ -18,7 +18,7 @@
 12-->/Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml:7:22-76
 13
 14    <application
-14-->/Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml:9:5-35:19
+14-->/Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml:9:5-36:19
 15        android:allowBackup="true"
 15-->/Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml:10:9-35
 16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -61,20 +61,20 @@
 35-->/Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml:26:9-51
 35-->/Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml:26:19-48
 36        <activity
-36-->/Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml:27:9-34:20
+36-->/Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml:27:9-35:20
 37            android:name="com.example.android.covid19updates.SplashScreenActivity"
-37-->/Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml:27:19-55
+37-->/Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml:28:13-49
 38            android:theme="@style/SplashTheme" >
-38-->/Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml:28:13-47
+38-->/Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml:29:13-47
 39            <intent-filter>
-39-->/Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml:29:13-33:29
+39-->/Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml:30:13-34:29
 40                <action android:name="android.intent.action.MAIN" />
-40-->/Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml:30:17-69
-40-->/Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml:30:25-66
+40-->/Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml:31:17-69
+40-->/Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml:31:25-66
 41
 42                <category android:name="android.intent.category.LAUNCHER" />
-42-->/Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml:32:17-77
-42-->/Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml:32:27-74
+42-->/Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml:33:17-77
+42-->/Users/theblessing/Documents/AAD/Latest/Covid19-Updates/app/src/main/AndroidManifest.xml:33:27-74
 43            </intent-filter>
 44        </activity>
 45    </application>
