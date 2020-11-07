@@ -1,6 +1,7 @@
 package com.example.android.covid19updates;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -28,6 +29,7 @@ public class CountryListActivity extends AppCompatActivity {
     private List<String> mCountryNameList;
     private CountryListAdapter mAdapter;
     private SearchView mSearchView;
+    private String mSearchCharacters;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,6 +40,7 @@ public class CountryListActivity extends AppCompatActivity {
         mRecyclerItems = findViewById(R.id.list_countries);
         mInfoList = new ArrayList<>();
         mCountryNameList = new ArrayList<>();
+        mSearchCharacters = "";
 
         getCountryData();
     }
@@ -59,7 +62,7 @@ public class CountryListActivity extends AppCompatActivity {
                 Collections.sort(mCountryNameList);
                 initializeDisplayContent();
 
-                Toast.makeText(getBaseContext(), "Successfully loaded countries data", Toast.LENGTH_LONG).show();
+                Log.i("CountryListActivity", "Successfully loaded Country data");
             }
 
             @Override
@@ -84,8 +87,6 @@ public class CountryListActivity extends AppCompatActivity {
         inflater.inflate(R.menu.search_menu, menu);
         MenuItem searchItem = menu.findItem(R.id.action_search);
         mSearchView = (SearchView) searchItem.getActionView();
-        mSearchView.setSubmitButtonEnabled(true);
-        mSearchView.setQueryRefinementEnabled(true);
         mSearchView.setImeOptions(EditorInfo.IME_ACTION_SEARCH);
         mSearchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override
@@ -96,11 +97,14 @@ public class CountryListActivity extends AppCompatActivity {
 
             @Override
             public boolean onQueryTextChange(String newText) {
+                mSearchCharacters += newText;
                 mAdapter.getFilter().filter(newText);
-                // mAdapter.notifyDataSetChanged();
-                return false;
+                mAdapter.notifyDataSetChanged();
+                return true;
             }
         });
+        mSearchView.setQueryRefinementEnabled(true);
+
         return true;
     }
 

@@ -23,35 +23,8 @@ class CountryListAdapter extends RecyclerView.Adapter<CountryListAdapter.ViewHol
     private List<CountryData.Info> mInfoList;
     private List<String> mCountryNameList;
     private List<String> mCountryNameListFull;
-    private Filter mCountryNameListFilter = new Filter() {
-        @Override
-        protected FilterResults performFiltering(CharSequence constraint) {
-            List<String> filteredList = new ArrayList<>();
+    private List<String> mFilteredList;
 
-            if (constraint == null || constraint.length() == 0) {
-                filteredList.addAll(mCountryNameListFull);
-            } else {
-                filteredList.clear();
-                String filterPattern = constraint.toString().toLowerCase().trim();
-
-                for (String country : mCountryNameList) {
-                    if (country.toLowerCase().contains(constraint.toString().toLowerCase())) {
-                        filteredList.add(country);
-                    }
-                }
-            }
-            FilterResults filterResults = new FilterResults();
-            filterResults.values = filteredList;
-            return filterResults;
-        }
-
-        @Override
-        protected void publishResults(CharSequence constraint, FilterResults results) {
-            mCountryNameList.clear();
-            mCountryNameList.addAll((List) results.values);
-            notifyDataSetChanged();
-        }
-    };
 
     public CountryListAdapter(Context context, List<CountryData.Info> infoList, List<String> countryNameList) {
         mContext = context;
@@ -60,6 +33,7 @@ class CountryListAdapter extends RecyclerView.Adapter<CountryListAdapter.ViewHol
         mCountryNameList = countryNameList;
         mCountryNameListFull = new ArrayList<>(mCountryNameList);
     }
+
 
     @NonNull
     @Override
@@ -87,6 +61,47 @@ class CountryListAdapter extends RecyclerView.Adapter<CountryListAdapter.ViewHol
         return mCountryNameListFilter;
     }
 
+    private Filter mCountryNameListFilter = new Filter() {
+        @Override
+        protected FilterResults performFiltering(CharSequence constraint) {
+
+            mFilteredList = new ArrayList<>();
+
+            if (constraint == null || constraint.length() == 0) {
+                mFilteredList.addAll(mCountryNameListFull);
+            } else {
+                for (String country : mCountryNameList) {
+                    if (country.toLowerCase().contains(constraint.toString().toLowerCase())) {
+                        mFilteredList.add(country);
+                    }
+                }
+            }
+            FilterResults filterResults = new FilterResults();
+            filterResults.values = mFilteredList;
+
+            return filterResults;
+        }
+
+        @Override
+        protected void publishResults(CharSequence constraint, FilterResults results) {
+            mCountryNameList.clear();
+            mCountryNameList.addAll((List) results.values);
+            notifyDataSetChanged();
+       /*
+
+            if (results.count != 0) {
+                mCountryNameList2.addAll((List) results.values);
+            }
+
+            if (mCountryNameList.size() == 0){
+                mCountryNameList.clear();
+                for (String country : mCountryNameList2){
+                    mCountryNameList.add(country);
+                }
+            }*/
+        }
+    };
+
     public class ViewHolder extends RecyclerView.ViewHolder {
         public final TextView mTextCountryName;
 
@@ -106,7 +121,6 @@ class CountryListAdapter extends RecyclerView.Adapter<CountryListAdapter.ViewHol
                             detailIntent.putExtra(COUNTRY_DATA, info);
                         }
                     }
-
                     detailIntent.putExtra(COUNTRY_NAME, countryName);
                     mContext.startActivity(detailIntent);
                 }

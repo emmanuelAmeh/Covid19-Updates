@@ -48,8 +48,9 @@ public class WorldActivity extends AppCompatActivity {
                 WorldData data = response.body();
                 mData = data.global;
                 mUpdateDate = data.date;
-                Log.e("GetResponse", String.valueOf(response.code()));
-                Toast.makeText(getBaseContext(), "Successfully loaded world data", Toast.LENGTH_LONG).show();
+                Log.i("GetResponse", String.valueOf(response.code()));
+                Log.i("WorldDataActivity", "Successfully loaded world data");
+
 
                 initializeDisplayContent();
             }
