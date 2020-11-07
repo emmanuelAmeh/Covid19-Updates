@@ -32,7 +32,8 @@
             android:parentActivityName="com.example.android.covid19updates.CountryListActivity" />
         <activity
             android:name="com.example.android.covid19updates.CountryListActivity"
-            android:parentActivityName="com.example.android.covid19updates.WorldActivity" />
+            android:parentActivityName="com.example.android.covid19updates.WorldActivity" >
+        </activity>
         <activity android:name="com.example.android.covid19updates.WorldActivity" />
         <activity
             android:name="com.example.android.covid19updates.SplashScreenActivity"

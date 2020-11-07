@@ -22,7 +22,10 @@
             android:parentActivityName=".CountryListActivity" />
         <activity
             android:name=".CountryListActivity"
-            android:parentActivityName=".WorldActivity" />
+            android:parentActivityName=".WorldActivity">
+
+
+        </activity>
         <activity android:name=".WorldActivity" />
         <activity
             android:name=".SplashScreenActivity"
